@@ -18,16 +18,97 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: 'Abel-Regular';
+  src: url('../../public/assets/Abel-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oxanium';
+  src: url('../../public/assets/Oxanium-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LatoLight';
+  src: url('../../public/assets/Lato-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.AbelRegular {
+  font-family: 'Abel-Regular';
+}
+
+.LatoLight {
+  font-family: 'LatoLight'
+}
+
+.Oxanium {
+  font-family: 'Oxanium';
+}
+
+
+
+button.relative {
+  position: relative;
+  padding: 1rem;
+  color: black;
+  background-color: white;
+  /* border: none; */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button.relative::before,
+button.relative::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 5px;
+  height: 30px;
+  background-color: white; /* Default color */
+  opacity: 0.8;
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+}
+
+button.relative::before {
+  left: -15px; /* Stick to the beginning of the button */
+  transition: left 0.3s;
+}
+
+button.relative::after {
+  right: -15px; /* Stick to the end of the button */
+  transition: right 0.3s;
+
+}
+
+button:hover::before {
+  left: -5px; /* Stick to the beginning of the button */
+  transition: left 0.3s;
+}
+button:hover::after {
+  right: -5px; /* Stick to the beginning of the button */
+  transition: right 0.3s;
+}
+
+
+button:hover::before,
+button:hover::after {
+  background-color: #5991FF; /* Color on hover */
 }
