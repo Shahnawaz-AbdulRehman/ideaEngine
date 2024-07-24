@@ -1,5 +1,6 @@
 import FirstSection from "@/components/firstSection";
 import Header from "@/components/Header";
+import SecondSection from "@/components/SecondSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       </div>
       <Header />
       <FirstSection />
+      <SecondSection />
       
     </main>
   );

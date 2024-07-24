@@ -112,3 +112,62 @@ button:hover::before,
 button:hover::after {
   background-color: #5991FF; /* Color on hover */
 }
+
+
+
+
+
+
+
+button2.relative {
+  position: relative;
+  padding: 1rem;
+  color: white;
+  background-color: black;
+  border: 1px solid #AD1AAF;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button2.relative::before,
+button2.relative::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 5px;
+  height: 30px;
+  background-color: #AD1AAF; /* Default color */
+  opacity: 0.8;
+  transform: translateY(-50%);
+  transition: background-color 0.3s;
+}
+
+button2.relative::before {
+  left: -15px; /* Stick to the beginning of the button */
+  transition: left 0.3s;
+}
+
+button2.relative::after {
+  right: -15px; /* Stick to the end of the button */
+  transition: right 0.3s;
+
+}
+
+button2:hover::before {
+  left: -5px; /* Stick to the beginning of the button */
+  transition: left 0.3s;
+}
+button2:hover::after {
+  right: -5px; /* Stick to the beginning of the button */
+  transition: right 0.3s;
+}
+
+
+button2:hover::before,
+button2:hover::after {
+  background-color: #AD1AAF; /* Color on hover */
+}
+
+
+
+

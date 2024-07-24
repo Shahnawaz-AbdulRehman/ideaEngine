@@ -5,21 +5,21 @@ import Button from '../Button';
 export default function FirstSection() {
     return (
         <>
-            <div className='text-white flex'>
-                <div className='w-[60%]'>
-                    <div className='Oxanium font-bold text-6xl mb-10 w-[90%]'>
+            <div className='text-white flex md:row flex-col-reverse md:flex-row'>
+                <div className='md:w-[60%]'>
+                    <div className='Oxanium text-center md:text-start font-bold text-4xl lg:text-6xl mb-10 md:w-[90%]'>
                         AI - WEARABLE CRYPTO
                         COLLECTIBLES ECOSYSTEM
                     </div>
-                    <div className='LatoLight'>
+                    <div className='LatoLight text-center md:text-start'>
                         Gamified DePin + AI companion System on wearable
                     </div>
-                    <div className='flex mt-10'>
+                    <div className='flex items-center justify-center md:items-start md:justify-start mb-16 md:mb-0 mt-10'>
                         <Button title={"Private Sale"} />
                         <Button title={"White List"} />
                     </div>
                 </div>
-                <div >
+                <div className='flex items-center justify-center'>
                     <Image className='w-[80%]' src={firstSectionImg} />
                 </div>
             </div>
