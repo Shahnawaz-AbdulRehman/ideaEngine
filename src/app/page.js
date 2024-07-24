@@ -1,4 +1,5 @@
 import FirstSection from "@/components/firstSection";
+import Header from "@/components/Header";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="text-white">
         hello world
       </div>
+      <Header />
       <FirstSection />
       
     </main>
