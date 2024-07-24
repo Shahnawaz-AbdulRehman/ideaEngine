@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className=" bg-black">
+    <main className=" bg-black flex min-h-screen flex-col items-center justify-between">
       
       <Header />
       <FirstSection />

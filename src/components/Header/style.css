@@ -1,3 +1,24 @@
-.textWhite{
-    color: white;
+.fs-18x{
+    font-size: 18px;
+}
+.logo{
+    max-width: 304px;
+}
+.header-menu{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+.right-line, .left-line, .header-btn{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(89, 145, 255, 0.8) 30%, rgba(53, 87, 153, 0.6) 100%);
+}
+.profile-img{
+    max-width: 40px;
+}
+@media(max-width:1280px){
+    .logo{
+        max-width: 260px;
+    }
+    .fs-18x{
+        font-size: 16px !important;
+    }
 }
