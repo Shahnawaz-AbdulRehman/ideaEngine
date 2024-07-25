@@ -4,9 +4,11 @@ import Image from 'next/image'
 import logo from '../../../public/assets/logo.png';
 import profile from '../../../public/assets/profile.png';
 import menuicon from '../../../public/assets/menu-icon.svg';
-import facebook from '../../../public/assets/facebook.svg';
-import linkedin from '../../../public/assets/linkedin.svg';
-import cam from '../../../public/assets/cam.svg';
+import facebook from '../../../public/assets/facebook.png';
+import linkedin from '../../../public/assets/linkedin.png';
+import cam from '../../../public/assets/cam.png';
+import footerline from '../../../public/assets/footer-top-line.png';
+
 
 
 
@@ -45,26 +47,27 @@ export default function Header() {
 
    <footer className='w-full relative'>
     <div className='footer-top-line w-full'>
+    <Image className='w-full' src={footerline} /> 
     </div>
-      <div className='flex items-center justify-around'>
-
+      <div className='flex items-center justify-around my-24'>
         <div>
-        <ul className='flex footer-list text-white xl:gap-12 md:gap-4 lg:gap-6'>
-        <li><a href="#" className='fs-18x uppercase'>White-paper</a></li>
-        <li><a href="#" className='fs-18x uppercase'>VISUAL NOVEL</a></li>
-        <li><a href="#" className='fs-18x uppercase'>INITIAL DEMO</a></li>
+        <ul className='flex footer-list xl:gap-12 md:gap-4 lg:gap-6'>
+        <li><a href="#" className='fs-18x uppercase footer-gray-text'>White-paper</a></li>
+        <li><a href="#" className='fs-18x uppercase footer-gray-text'>VISUAL NOVEL</a></li>
+        <li><a href="#" className='fs-18x uppercase footer-gray-text'>INITIAL DEMO</a></li>
         </ul>
         </div>
-
-        <div className='flex items-center'>
+        <div className='flex items-center gap-6'>
         <a href="#" className='fs-18x uppercase text-white'>Follow us</a>
         <a href="#"><Image className='footer-social-img' src={facebook} /></a>
         <a href="#"><Image className='footer-social-img' src={cam} /></a>
         <a href="#"><Image className='footer-social-img' src={linkedin} /></a>
         </div>
-
         <div><div className='footer-btn py-2 lg:px-4 md:px-2 text-white'><button><a href="#" className='fs-18x'>Connect Wallet</a></button></div>
         </div>
+      </div>
+      <div className='footer-copty-text py-1'>
+        <p>© Copyright © 2024 Incentives  Incentives - AI Automations and blockchain sales@idea-engine.ai</p>
       </div>
    
    </footer>
