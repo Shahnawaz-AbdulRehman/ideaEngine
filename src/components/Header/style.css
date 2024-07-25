@@ -38,8 +38,12 @@ position: absolute;
 .footer-links{
     color: aliceblue;
 }
+.footer-btn-text{
+    font-size: 10px;
+}
 .footer-gray-text{
     color:rgba(255, 252, 252, 0.438);
+    font-size: 10px;
 }
 .footer-btn{
     border-radius: 12.02px;
@@ -50,6 +54,9 @@ box-shadow: 0px 8.184px 15.345px 0px #003861;
     width: 40px;
     border-radius: 50%;
 }
+.follow-us{
+    font-size: 10px;
+}
 .footer-copty-text{
     max-width: 90%;
     margin: auto;
@@ -58,9 +65,21 @@ box-shadow: 0px 8.184px 15.345px 0px #003861;
 .footer-copty-text p{
     color: #000618;
 }
+@media(max-width:1600px){
+    .footer-content{
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 @media(max-width:1280px){
     .logo{
         max-width: 260px;
+    }
+    .footer-content{
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .fs-18x{
         font-size: 16px !important;
@@ -78,6 +97,14 @@ box-shadow: 0px 8.184px 15.345px 0px #003861;
     }
     .headerbtn-box button{
         padding: 0px 4px 0px 4px;
+    }
+    .footer-copty-text p{
+        font-size: 10px !important;
+        color: #fff;
+    }
+    .footer-btn{
+        padding-left:10px;
+        padding-right: 10px;
     }
     .checkbtn{
 
