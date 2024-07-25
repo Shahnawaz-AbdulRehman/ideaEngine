@@ -49,7 +49,7 @@ export default function Header() {
     <div className='footer-top-line w-full'>
     <Image className='w-full' src={footerline} /> 
     </div>
-      <div className='flex items-center justify-around my-24 md-col-reverser'>
+      <div className='flex items-center justify-around my-24 flex-col-reverse md:flex-row md:gap-12'>
         <div>
         <ul className='flex footer-list xl:gap-12 md:gap-4 lg:gap-6'>
         <li><a href="#" className='fs-18x uppercase footer-gray-text'>White-paper</a></li>
@@ -67,7 +67,7 @@ export default function Header() {
         </div>
       </div>
       <div className='footer-copty-text py-1'>
-        <p>© Copyright © 2024 Incentives  Incentives - AI Automations and blockchain sales@idea-engine.ai</p>
+        <p className='fs-18x'>© Copyright © 2024 Incentives  Incentives - AI Automations and blockchain sales@idea-engine.ai</p>
       </div>
    
    </footer>
