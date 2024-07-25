@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className="flex self-center items-center justify-center bg-black">
 
-      <main className="maxWidth flex min-h-screen flex-col items-center justify-between p-6 sm:p-10 md:p-24 bg-black max-[1200px]">
+      <main className="maxWidth flex min-h-screen flex-col items-center justify-between p-6 sm:p-10 md:p-24 md:pt-0 bg-black max-[1200px]">
 
         <Header />
         <FirstSection />
