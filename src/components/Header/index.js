@@ -49,7 +49,7 @@ export default function Header() {
     <div className='footer-top-line w-full'>
     <Image className='w-full' src={footerline} /> 
     </div>
-      <div className='flex items-center justify-around my-24'>
+      <div className='flex items-center justify-around my-24 md-col-reverser'>
         <div>
         <ul className='flex footer-list xl:gap-12 md:gap-4 lg:gap-6'>
         <li><a href="#" className='fs-18x uppercase footer-gray-text'>White-paper</a></li>
