@@ -16,7 +16,7 @@ import footerline from '../../../public/assets/footer-top-line.png';
 export default function Header() {
   return (
    <>
- <header className='header w-full px-3 md:mt-2 sm:mt-2'>
+ <header className='header w-full px-3 md:mt-2 sm:mt-2 engine-header'>
  <div className='flex justify-between items-center'>
  <div className='logo md:w-40 lg:w-auto'>
         <Image src={logo} />
@@ -30,7 +30,7 @@ export default function Header() {
       </div>
       <div className='headerbtn-box flex items-center lg:gap-3 md:gap-1'>
         <div className='left-line h-7 w-2 bg-black'></div>
-        <div className='header-btn py-2 lg:px-4 md:px-2 text-white'><button><a href="#" className='fs-18x'>Connect Wallet</a></button></div>
+        <div className='header-btn py-2 lg:px-4 md:px-2 text-white'><button><a href="#" className=''>Connect Wallet</a></button></div>
         <div className='right-line h-7 w-2'></div>
         <div className='profile-img hidden sm:block'> 
         <Image src={profile} /> 

@@ -103,6 +103,9 @@ box-shadow: 0px 8.184px 15.345px 0px #003861;
     .fs-10x{
         font-size: 10px !important;
     }
+    .header-btn button{
+        font-size: 12px;
+    }
     .headerbtn-box{
         gap: 4px;
     }
@@ -118,5 +121,8 @@ box-shadow: 0px 8.184px 15.345px 0px #003861;
     }
     .footer-content{
         max-width: 100%;
+    }
+    .engine-header{
+        padding-top:6px;
     }
 }
