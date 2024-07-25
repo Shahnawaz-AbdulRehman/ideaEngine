@@ -3,7 +3,11 @@ import './style.css'
 import Image from 'next/image'
 import logo from '../../../public/assets/logo.png';
 import profile from '../../../public/assets/profile.png';
-import menuicon from '../../../public/assets/menu-icon.png';
+import menuicon from '../../../public/assets/menu-icon.svg';
+import facebook from '../../../public/assets/menu-icon.svg';
+import linkedin from '../../../public/assets/menu-icon.svg';
+import cam from '../../../public/assets/menu-icon.svg';
+
 
 
 
@@ -35,11 +39,13 @@ export default function Header() {
         <Image src={menuicon} /> 
         </div>
         </label>
-
-
     </div>
     </div>
    </header> 
+
+   <footer>
+    <div></div>
+   </footer>
 </>
 )
 };

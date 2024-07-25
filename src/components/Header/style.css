@@ -12,18 +12,35 @@
     background: radial-gradient(50% 50% at 50% 50%, rgba(89, 145, 255, 0.8) 30%, rgba(53, 87, 153, 0.6) 100%);
 }
 .profile-img{
-    max-width: 40px;
+    max-width: 30px;
 }
 .checkbtn{
-    font-size: 30px;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    /* margin: 0px 20px 0px 10px; */
     cursor: pointer;
-    display: none;
 }
 #check{
     display: none;
+}
+.icon-img{
+    min-width: 20px !important;
+} 
+.footer-top-line{
+background-image: url('../../../public/assets/footer-top-line.png');
+height: 10px;
+width: 100%;
+background-repeat: no-repeat;
+/* background-position: center; */
+background-size: cover;
+}
+.footer-links{
+    color: aliceblue;
+}
+.footer-btn{
+    border-radius: 12.02px;
+background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
+box-shadow: 0px 8.184px 15.345px 0px #003861;
 }
 @media(max-width:1280px){
     .logo{
@@ -32,4 +49,22 @@
     .fs-18x{
         font-size: 16px !important;
     }
+}
+@media(max-width:767px){
+    .logo{
+        max-width: 155px;
+    }
+    .fs-10x{
+        font-size: 10px !important;
+    }
+    .headerbtn-box{
+        gap: 4px;
+    }
+    .headerbtn-box button{
+        padding: 0px 4px 0px 4px;
+    }
+    .checkbtn{
+
+    }
+    
 }
