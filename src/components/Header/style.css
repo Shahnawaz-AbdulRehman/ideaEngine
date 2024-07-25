@@ -42,6 +42,10 @@ background-size: cover;
 background: linear-gradient(66deg, #00C3FD 25.98%, #0194FE 65.48%);
 box-shadow: 0px 8.184px 15.345px 0px #003861;
 }
+.footer-social-img{
+    width: 92px;
+    border-radius: 50%;
+}
 @media(max-width:1280px){
     .logo{
         max-width: 260px;

@@ -4,9 +4,9 @@ import Image from 'next/image'
 import logo from '../../../public/assets/logo.png';
 import profile from '../../../public/assets/profile.png';
 import menuicon from '../../../public/assets/menu-icon.svg';
-import facebook from '../../../public/assets/menu-icon.svg';
-import linkedin from '../../../public/assets/menu-icon.svg';
-import cam from '../../../public/assets/menu-icon.svg';
+import facebook from '../../../public/assets/facebook.svg';
+import linkedin from '../../../public/assets/linkedin.svg';
+import cam from '../../../public/assets/cam.svg';
 
 
 
@@ -43,9 +43,10 @@ export default function Header() {
     </div>
    </header> 
 
-   <footer className='w-full'>
+   <footer className='w-full relative'>
     <div className='footer-top-line w-full'>
-      <div className='flex items-center justify-between'>
+    </div>
+      <div className='flex items-center justify-around'>
 
         <div>
         <ul className='flex footer-list text-white xl:gap-12 md:gap-4 lg:gap-6'>
@@ -55,15 +56,17 @@ export default function Header() {
         </ul>
         </div>
 
-        <div className='flex'>
+        <div className='flex items-center'>
         <a href="#" className='fs-18x uppercase text-white'>Follow us</a>
-        <a href="#" className='fs-18x uppercase text-white'></a>
+        <a href="#"><Image className='footer-social-img' src={facebook} /></a>
+        <a href="#"><Image className='footer-social-img' src={cam} /></a>
+        <a href="#"><Image className='footer-social-img' src={linkedin} /></a>
         </div>
 
         <div><div className='footer-btn py-2 lg:px-4 md:px-2 text-white'><button><a href="#" className='fs-18x'>Connect Wallet</a></button></div>
         </div>
       </div>
-    </div>
+   
    </footer>
 </>
 )
