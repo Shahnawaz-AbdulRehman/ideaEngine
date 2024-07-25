@@ -4,6 +4,6 @@ import './style.css'
 
 export default function Header() {
   return (
-    <div className='textWhite'>Header</div>
+    <div className='textWhite'></div>
   )
 }

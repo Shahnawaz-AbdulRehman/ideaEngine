@@ -50,6 +50,16 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/assets/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.inter{
+  font-family: "Inter";
+}
 .AbelRegular {
   font-family: 'Abel-Regular';
 }
@@ -66,10 +76,9 @@ body {
 
 button.relative {
   position: relative;
-  padding: 1rem;
-  color: black;
-  background-color: white;
-  /* border: none; */
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: black;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -81,37 +90,36 @@ button.relative::after {
   top: 50%;
   width: 5px;
   height: 30px;
-  background-color: white; /* Default color */
+  background-color: #5991FF; /* Color on default */
   opacity: 0.8;
   transform: translateY(-50%);
   transition: background-color 0.3s;
 }
 
 button.relative::before {
-  left: -15px; /* Stick to the beginning of the button */
+  left: -5px; /* Stick to the beginning of the button */
   transition: left 0.3s;
 }
 
 button.relative::after {
-  right: -15px; /* Stick to the end of the button */
+  right: -5px; /* Stick to the end of the button */
   transition: right 0.3s;
-
 }
 
 button:hover::before {
-  left: -5px; /* Stick to the beginning of the button */
+  left: -15px; /* Stick to the beginning of the button */
   transition: left 0.3s;
 }
 button:hover::after {
-  right: -5px; /* Stick to the beginning of the button */
+  right: -15px; /* Stick to the beginning of the button */
   transition: right 0.3s;
 }
 
-
-button:hover::before,
-button:hover::after {
-  background-color: #5991FF; /* Color on hover */
+button.relative:hover::before,
+button.relative:hover::after {
+  background-color: white; /* Color on hover */
 }
+
 
 
 
@@ -121,7 +129,7 @@ button:hover::after {
 
 button2.relative {
   position: relative;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   color: white;
   background-color: black;
   border: 1px solid #AD1AAF;
@@ -169,5 +177,41 @@ button2:hover::after {
 }
 
 
+.maxWidth{
+  max-width: 1920px;
+}
+
+.gradient-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Center the text vertically and horizontally */
+   /* Optional: set a background color */
+}
+
+.gradient-text {
+  
+  background: linear-gradient(270deg, #FF3C6A -13.53%, #FFAF36 30.88%, #5991FF 64.68%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.reset-input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  box-shadow: none;
+  outline: none;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+}
 
 
