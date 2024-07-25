@@ -85,12 +85,15 @@ box-shadow: 0px 8.184px 15.345px 0px #003861;
         max-width: 260px;
     }
     .footer-content{
-        max-width: 60%;
+        max-width: 768px;
         margin-left: auto;
         margin-right: auto;
     }
     .fs-18x{
         font-size: 16px !important;
+    }
+    .menu-links{
+        font-size: 12px;
     }
 }
 @media(max-width:767px){
