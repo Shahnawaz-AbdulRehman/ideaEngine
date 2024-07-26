@@ -15,7 +15,7 @@ responsiveImage
 return (
     <div className='text-white md:flex flex-col mt-16 md:mt-24 w-full'>
         <div className='container'>
-        <div className='md:flex justify-center items-end '>
+        <div className='md:flex justify-between items-end '>
             <div className=''>
                 <div className='LatoLight'>
                     {preTitle}

@@ -12,7 +12,7 @@ export default function FirstSection() {
     <div className='container'>
       <div className='text-white flex md:row flex-col-reverse md:flex-row'>
         <div className='md:w-[50%]'>
-          <h2 className='hero_title Oxanium md:text-start font-bold text-3xl md:text-3xl lg:text-4xl xl:text-5xl mb-5 xl:mb-10 md:w-[97%]'>
+          <h2 className='hero_title Oxanium md:text-start font-bold text-3xl mt-10 md:text-3xl lg:text-4xl xl:text-5xl mb-5 xl:mb-10 md:w-[97%]'>
             AI - WEARABLE CRYPTO COLLECTIBLES ECOSYSTEM
           </h2>
           <p className='LatoLight xl:text-xl md:text-start'>

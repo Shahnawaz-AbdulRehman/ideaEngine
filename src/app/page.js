@@ -3,8 +3,8 @@ import Header from "@/components/Header";
 import SecondSection from "@/components/SecondSection";
 import Image from "next/image";
 import secondImage from "../../public/assets/test.webp";
-import secondImageResponsive from "../../public/assets/secondImageResponsive.svg"
-import thirdImage from "../../public/assets/thirdImage.svg";
+import secondImageResponsive from "../../public/assets/secondImageResponsive.webp"
+import thirdImage from "../../public/assets/thirdImage.webp";
 import thirdImageResponsive from "../../public/assets/thirdImageResponsive.svg";
 import appleBtn from "../../public/assets/AppStore.png";
 import playStore from "../../public/assets/PlayStore.png";
@@ -41,35 +41,36 @@ export default function Home() {
 
             preTitle={"Most loved NFTs of the time"}
             blueText={"Gamified"}
-            titleText={"DePin + AI"}
+            titleText={"DePin + SocialFI for AI "}
             paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
             sectionImg={secondImage}
             responsiveImage={secondImageResponsive}
           />
-          <gradientcontainer className="relative z-2">
-
-            <SecondSection
-
-              preTitle={"Most loved NFTs of the time"}
-              blueText={"Quest/NFT"}
-              titleText={"Games"}
-              paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
-              sectionImg={thirdImage}
-              responsiveImage={thirdImageResponsive}
-            />
-          </gradientcontainer>
           <div className="container">
             <div className="gradient-text-container inter">
-              <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10">Swift Blockchain Revolution</h1>
+              <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10 lg:mt-28"> Distributed Wearable Avatar Network </h1>
             </div>
-            <div className="mx-auto text-white inter mt-10 inter xl:text-xl  md:w-[55%] text-center">
-              Ready to energize your life and turn it into earnings? With Move to Earn, your steps hold real value. Simply walk, run, or exercise to earn. Each step matters.
-            </div>
+            <p className="mx-auto text-white inter mt-10 inter xl:text-xl  md:w-[55%] text-center">
+            Revolutionizing AI and social interactions. Users can engage in peer-to-peer zero knowledge exchanges, ensuring complete privacy and security during data transactions. Users will be rewarded for taking notes, interacting with artificial intelligence and communicating with other users.
+            </p>
             <div className="flex mt-10 gap-4 justify-center">
               <Image src={playStore} className="object-contain" />
               <Image src={appleBtn} />
             </div>
           </div>
+          <gradientcontainer className="relative z-2">
+
+            <SecondSection
+
+              preTitle={"Incentivized but not play to earn model"}
+              blueText={"ZK NFT Quests/"}
+              titleText={"Games"}
+              paragraph={"Gamified Threads with custom data variables"}
+              sectionImg={thirdImage}
+              responsiveImage={thirdImageResponsive}
+            />
+          </gradientcontainer>
+
 
 
 

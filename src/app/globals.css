@@ -4,9 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
 main {
   max-width: 100%;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .container {
   margin: 0 auto;
@@ -106,6 +107,7 @@ button.relative {
     width: 6rem;
     height: 2rem;
   }
+  
   .container {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -301,11 +303,12 @@ div#lottie {
   position: absolute;
   left: 0;
   right: 0;
+  top: 0;
   bottom: 0;
-  margin: auto;
+  margin: auto !important;
   display: block;
-  height: 100% !important;
-  max-height: 100%;
+  height: 115% !important;
+  max-height: 115%;
   width: 100% !important;
 }
 @media(min-width:768px) {
