@@ -41,7 +41,7 @@ export default function Header() {
           }
           <div className='headerbtn-box flex items-center lg:gap-3 md:gap-1'>
             <div className='left-line h-4 w-0.5 bg-black'></div>
-            <div className='header-btn py-1 px-3 lg:px-4 md:px-2 text-white Oxanium '><a href="#" className=''>Connect Wallet</a></div>
+            <div className='header-btn py-1 px-3 md:py-3 lg:px-4 md:px-2 text-white Oxanium '><a href="#" className=''>Connect Wallet</a></div>
             <div className='right-line h-4 w-0.5'></div>
             <div className='profile-img hidden sm:block pr-2'>
               <Image src={profile} />

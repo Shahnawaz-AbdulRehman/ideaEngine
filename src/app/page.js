@@ -2,7 +2,7 @@ import FirstSection from "@/components/firstSection";
 import Header from "@/components/Header";
 import SecondSection from "@/components/SecondSection";
 import Image from "next/image";
-import secondImage from "../../public/assets/secondImage.svg";
+import secondImage from "../../public/assets/test.webp";
 import secondImageResponsive from "../../public/assets/secondImageResponsive.svg"
 import thirdImage from "../../public/assets/thirdImage.svg";
 import thirdImageResponsive from "../../public/assets/thirdImageResponsive.svg";
@@ -21,6 +21,7 @@ import nft3 from "../../public/assets/nft3.png";
 import nft4 from "../../public/assets/nft4.png";
 import lineThing1 from "../../public/assets/lineThing3.svg";
 import gradient from "../../public/assets/gradientBlue.svg";
+
 
 export default function Home() {
   return (

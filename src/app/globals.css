@@ -69,6 +69,9 @@ body {
   font-style: normal;
 }
 
+.lottie-column {
+ position: relative;
+}
 .inter{
   font-family: "Inter";
 }
@@ -88,8 +91,7 @@ body {
 
 button.relative {
   position: relative;
-  /* padding: 1rem 3rem; */
-  width: 10rem;
+  width: 2rem;
   height: 5rem;
   color: white;
   background-color: none;
@@ -293,9 +295,33 @@ button3:hover::after {
   height: 2.5rem !important;
   width: 8rem !important;
 }
+div#lottie {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  height: 100% !important;
+  max-height: 100%;
+  width: 100% !important;
+}
+@media(min-width:768px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 @media(min-width:992px){
   .view_all {
     padding: 7px 40px !important;
+  }
+  .right-line, .left-line, .header-btn {
+    font-size: 18px !important;
+  }
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 @media(min-width:1025px){

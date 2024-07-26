@@ -11,10 +11,12 @@
   "dependencies": {
     "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.1.5",
+    "@lottiefiles/react-lottie-player": "^3.5.4",
+    "lottie-react": "^2.4.0",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "react-lottie": "^1.2.4"
+    "react-lottie-player": "^2.1.0"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
