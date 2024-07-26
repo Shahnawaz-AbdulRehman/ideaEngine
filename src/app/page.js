@@ -76,9 +76,9 @@ export default function Home() {
 
           <SecondSection
             preTitle={"Most loved NFTs of the time"}
-            blueText={"Collectibles"}
-            titleText={"Marketplace"}
-            paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
+            blueText={"Pair your any token"}
+            titleText={"with AI"}
+            paragraph={"Your token will be able Tell Jokes, Provide Advice, Offer Tips and much more."}
           />
           <gradientcontainer className="relative z-2">
           <div className="container">
