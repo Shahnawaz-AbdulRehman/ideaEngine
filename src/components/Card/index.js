@@ -6,17 +6,17 @@ import eth from "../../../public/assets/eth.png";
 // import nft1 from "../../../public/assets/nft1.png";
 import vectorTest from "../../../public/assets/vectorTest.png";
 
-export default function Card({img,hearts}) {
+export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
 
     const buttonStyle = {
         borderRadius: "0 20px 0 20px"
     }
     return (
-        <div className='text-white w-[90%] bg-white bg-opacity-25 p-2 rounded-xl self-center'>
+        <div className='text-white w-[90%] bg-white bg-opacity-15 p-2 rounded-xl self-center'>
 
             <div className='relative'>
                 <Image src={img} />
-                <div style={buttonStyle} className='bg-white bg-opacity-25 p-2 absolute top-0 right-0 flex items-center'>
+                <div style={buttonStyle} className='bg-white bg-opacity-15 p-2 absolute top-0 right-0 flex items-center'>
                     <div className='w-4 mr-3'>
                         <Image src={vectorTest} />
                     </div>
@@ -30,10 +30,10 @@ export default function Card({img,hearts}) {
                 </div>
                 <div>
                     <div className='Oxanium text-2xl'>
-                        Floki Monster
+                        {cryptoName}
                     </div>
                     <div className='Inter'>
-                        By @ User
+                        By @ {userName}
                     </div>
                 </div>
             </div>
@@ -53,7 +53,7 @@ export default function Card({img,hearts}) {
                         <Image src={eth} />
                     </div>
                     <div>
-                        4.89 ETH
+                        {ethAmount}
                     </div>
                 </div>
             </div>

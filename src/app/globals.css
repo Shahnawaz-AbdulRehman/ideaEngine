@@ -76,9 +76,11 @@ body {
 
 button.relative {
   position: relative;
-  padding: 0.5rem 1rem;
+  /* padding: 1rem 3rem; */
+  width: 10rem;
+  height: 5rem;
   color: white;
-  background-color: black;
+  background-color: none;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }

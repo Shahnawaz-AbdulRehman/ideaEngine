@@ -13,7 +13,7 @@ export default function SecondSection({
     responsiveImage 
 }) {
     return (
-        <div className='  sm:pl-0 text-white flex flex-col  max-[1200px] self-start w-full mt-14 '>
+        <div className='  sm:pl-0 text-white flex flex-col  max-[1200px] self-start w-full mt-24 '>
             <div className='flex justify-center items-end '>
                 <div className='w-1/2'>
                     <div className='LatoLight'>
@@ -29,7 +29,7 @@ export default function SecondSection({
                         {paragraph}
                     </div>
                 </div>
-                <div className=" w-[35%]  xl:w-1/2 flex justify-end items-start ">
+                <div className=" w-[35%]  xl:w-1/2 flex justify-end items-start mb-20 ">
                     <button2 className="relative text-black opacity-80  p-3 Oxanium bg-black hover:text-white border border-transparent group">
                         View All
                     </button2>
