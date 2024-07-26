@@ -13,94 +13,113 @@ import fourthImageResponsive from "../../public/assets/fourthImgResponsive.png";
 import fifthImage from "../../public/assets/fifthImg.png";
 import fifthImageResponsive from "../../public/assets/fifthImgResponsive.png";
 import subscribe from "../../public/assets/subscribe.png";
-
+import Footer from "@/components/Footer";
+import Card from "@/components/Card";
+import nft1 from "../../public/assets/nft1.png";
+import nft2 from "../../public/assets/nft2.png";
+import nft3 from "../../public/assets/nft3.png";
+import nft4 from "../../public/assets/nft4.png";
 
 export default function Home() {
   return (
-    <div className="flex self-center items-center justify-center bg-black">
+    <>
+      <div className="flex self-center items-center justify-center bg-black">
 
-      <main className="maxWidth flex min-h-screen flex-col items-center justify-between p-6 sm:p-10 md:p-24 md:pt-0 bg-black max-[1200px]">
+        <main className="maxWidth flex min-h-screen flex-col items-center justify-between px-0  md:px-24 md:pt-0 bg-black max-[1200px] ">
 
-        <Header />
-        <FirstSection />
+          <Header />
+          <FirstSection />
 
-        <SecondSection
+          <SecondSection
 
-          preTitle={"Most loved NFTs of the time"}
-          blueText={"Gamified"}
-          titleText={"DePin + AI"}
-          paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
-          sectionImg={secondImage}
-          responsiveImage={secondImageResponsive}
-        />
+            preTitle={"Most loved NFTs of the time"}
+            blueText={"Gamified"}
+            titleText={"DePin + AI"}
+            paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
+            sectionImg={secondImage}
+            responsiveImage={secondImageResponsive}
+          />
 
-        <SecondSection
+          <SecondSection
 
-          preTitle={"Most loved NFTs of the time"}
-          blueText={"Quest/NFT"}
-          titleText={"Games"}
-          paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
-          sectionImg={thirdImage}
-          responsiveImage={thirdImageResponsive}
-        />
+            preTitle={"Most loved NFTs of the time"}
+            blueText={"Quest/NFT"}
+            titleText={"Games"}
+            paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
+            sectionImg={thirdImage}
+            responsiveImage={thirdImageResponsive}
+          />
 
-        <div className="gradient-text-container inter">
-          <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10">Swift Blockchain Revolution</h1>
-        </div>
-        <div className="text-white inter mt-10 inter xl:text-xl  md:w-[55%] text-center">
-          Ready to energize your life and turn it into earnings? With Move to Earn, your steps hold real value. Simply walk, run, or exercise to earn. Each step matters.
-        </div>
-        <div className="sm:w-auto w-[300px]  flex mt-10 gap-4">
-          <Image src={playStore} />
-          <Image src={appleBtn} />
-        </div>
+          <div className="gradient-text-container inter">
+            <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10">Swift Blockchain Revolution</h1>
+          </div>
+          <div className="text-white inter mt-10 inter xl:text-xl  md:w-[55%] text-center">
+            Ready to energize your life and turn it into earnings? With Move to Earn, your steps hold real value. Simply walk, run, or exercise to earn. Each step matters.
+          </div>
+          <div className="sm:w-auto w-[300px]  flex mt-10 gap-4">
+            <Image src={playStore} />
+            <Image src={appleBtn} />
+          </div>
 
 
-        <SecondSection
+          <SecondSection
+            preTitle={"Most loved NFTs of the time"}
+            blueText={"Collectibles"}
+            titleText={"Marketplace"}
+            paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
+          />
+          <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-4 my-10 items-center justify-center ms-10">
 
-          preTitle={"Most loved NFTs of the time"}
-          blueText={"Collectibles"}
-          titleText={"Marketplace"}
-          paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
-        />
 
-        <SecondSection
+            <Card img={nft1} hearts={"6"} />
+            <Card img={nft3} hearts={"7"} />
+            <Card img={nft3} hearts={"8"} />
+            <Card img={nft4} hearts={"6"} />
+          </div>
 
-          preTitle={"Most Appreciated NFTs On Sale For the day"}
-          titleText={"TokenoMics And Utility"}
-          sectionImg={fourthImage}
-          responsiveImage={fourthImageResponsive}
-        />
 
-        <SecondSection
 
-          preTitle={"Watch and follow celebrities to get the best collection of NFTs"}
-          titleText={"Roadmap"}
-          sectionImg={fifthImage}
-          responsiveImage={fifthImageResponsive}
-        />
+          <SecondSection
 
-        <div className="text-white text-5xl mb-5 Oxanium mt-10">
-          Join Whitelist
-        </div>
-        <div>
-          <div className="flex p-1 pl-3 rounded-[15px] border text-white border-[#5991ff] ">
-          <input className="p-3  bg-opacity-0 reset-input "
-                    type="email"
-                    id="email"
-                    name="email"
-                    // value={email}
-                    // onChange={handleChange}
-                    // required
-                    placeholder="Enter your email"
-                />
+            preTitle={"Most Appreciated NFTs On Sale For the day"}
+            titleText={"TokenoMics And Utility"}
+            sectionImg={fourthImage}
+            responsiveImage={fourthImageResponsive}
+          />
+
+          <SecondSection
+
+            preTitle={"Watch and follow celebrities to get the best collection of NFTs"}
+            titleText={"Roadmap"}
+            sectionImg={fifthImage}
+            responsiveImage={fifthImageResponsive}
+          />
+
+          <div className="text-white text-5xl mb-5 Oxanium mt-10">
+            Join Whitelist
+          </div>
+          <div>
+            <div className="flex p-1 pl-3 rounded-[15px] border text-white border-[#5991ff] ">
+              <input className="p-3  bg-opacity-0 reset-input "
+                type="email"
+                id="email"
+                name="email"
+                // value={email}
+                // onChange={handleChange}
+                // required
+                placeholder="Enter your email"
+              />
               <div className="w-12 ml-10 cursor-pointer">
                 <Image src={subscribe} />
               </div>
+            </div>
           </div>
-        </div>
 
-      </main>
-    </div>
+
+
+          <Footer />
+        </main>
+      </div>
+    </>
   );
 }
