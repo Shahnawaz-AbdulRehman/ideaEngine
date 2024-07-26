@@ -20,9 +20,11 @@ export default function Footer() {
         </div>
         <div className='flex items-center gap-6'>
           <a href="#" className='follow-us uppercase text-white'>Follow us</a>
-          <a href="#"><Image className='footer-social-img' src={facebook} /></a>
-          <a href="#"><Image className='footer-social-img' src={cam} /></a>
-          <a href="#"><Image className='footer-social-img' src={linkedin} /></a>
+          <a href="https://x.com/Incentives01"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic01.svg' width={20} height={20} /></a>
+          <a href="https://t.me/idea_engine_ai"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic02.svg' width={20} height={20} /></a>
+          <a href="https://incentives101.substack.com/"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic03.svg' width={20} height={20} /></a>
+          <a href="https://www.instagram.com/idea_engine.ai/"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic04.svg' width={20} height={20} /></a>
+          <a href="https://www.youtube.com/@IDEA-EngineAI"><Image className='footer-social-img' src='https://www.idea-engine.ai/images/social_ic05.svg' width={20} height={20} /></a>
         </div>
         <div><div className='footer-btn py-2 px-5 text-white'><button className='flex'><a href="#" className='footer-btn-text'>Connect Wallet</a></button></div>
         </div>

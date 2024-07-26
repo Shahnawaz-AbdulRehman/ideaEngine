@@ -63,7 +63,11 @@
 .footer-social-img {
     width: 40px;
     border-radius: 50%;
+    background: rgba(199, 225, 219, 0.11);
+    backdrop-filter: blur(25px);
+    padding: 10px;
 }
+
 
 .follow-us {
     font-size: 10px;

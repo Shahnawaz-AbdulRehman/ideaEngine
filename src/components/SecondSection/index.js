@@ -16,7 +16,7 @@ return (
     <div className='text-white md:flex flex-col mt-16 md:mt-24 w-full'>
         <div className='container'>
         <div className='md:flex justify-between items-end '>
-            <div className=''>
+            <div className='w-full'>
                 <div className='LatoLight'>
                     {preTitle}
                 </div>
@@ -28,7 +28,7 @@ return (
                 ) : null}
                     {titleText}
                 </h2>
-                <p className='Oxanium text-lg sm:text-xl mt-10 font-thin'>
+                <p className='Oxanium text-lg sm:text-xl mt-10 font-thin md:w-1/3'>
                     {paragraph}
                 </p>
             </div>
