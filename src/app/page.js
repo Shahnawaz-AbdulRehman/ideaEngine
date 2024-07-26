@@ -29,7 +29,7 @@ export default function Home() {
 
         <main className="maxWidth flex relative z-0 min-h-screen flex-col items-center justify-between px-0  md:px-24 md:pt-0 bg-black max-[1200px] ">
 
-          {/* <Header /> */}
+          <Header />
           <FirstSection />
 
           <div className="absolute left-0 z-[-1] w-[70%] top-[300px]">
