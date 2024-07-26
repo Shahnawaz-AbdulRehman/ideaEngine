@@ -25,11 +25,11 @@ import gradient from "../../public/assets/gradientBlue.svg";
 export default function Home() {
   return (
     <>
-      <div className="flex self-center items-center justify-center bg-black overflow-x-hidden ">
+      <div className="flex self-center items-center justify-center bg-black overflow-x-hidden w-full">
 
         <main className="maxWidth flex relative z-0 min-h-screen flex-col items-center justify-between px-0  md:px-24 md:pt-0 bg-black max-[1200px] ">
 
-          <Header />
+          {/* <Header /> */}
           <FirstSection />
 
           <div className="absolute left-0 z-[-1] w-[70%] top-[300px]">
@@ -57,8 +57,8 @@ export default function Home() {
               responsiveImage={thirdImageResponsive}
             />
 
-            <Image src={gradient} className="absolute top-10 left-[-55%] z-[-1] opacity-70" />
-            <Image src={gradient} className="absolute top-60 right-[-55%] z-[-1] opacity-70" />
+            {/* <Image src={gradient} className="absolute top-10 left-[-55%] z-[-1] opacity-70" /> */}
+            {/* <Image src={gradient} className="absolute top-60 right-[-55%] z-[-1] opacity-70" /> */}
           </gradientcontainer>
 
           <div className="gradient-text-container inter">
@@ -90,7 +90,7 @@ export default function Home() {
               <Card img={nft4} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
             </div>
 
-            <Image src={gradient} className="absolute top-0 left-[-55%] z-[-1] opacity-70" />
+            {/* <Image src={gradient} className="absolute top-0 left-[-55%] z-[-1] opacity-70" /> */}
 
           </gradientcontainer>
 
@@ -109,8 +109,8 @@ export default function Home() {
             sectionImg={fifthImage}
             responsiveImage={fifthImageResponsive}
           />
-            <Image src={gradient} className="absolute top-0 left-[-55%] z-[-1] opacity-70" />
-            <Image src={gradient} className="absolute bottom-0 right-[-55%] z-[-1] opacity-70" />
+            {/* <Image src={gradient} className="absolute top-0 left-[-55%] z-[-1] opacity-70" /> */}
+            {/* <Image src={gradient} className="absolute bottom-0 right-[-55%] z-[-1] opacity-70" /> */}
 
           </gradientcontainer>
 
