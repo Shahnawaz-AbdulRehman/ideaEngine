@@ -5,48 +5,53 @@ import secondImgResponsive from '../../../public/assets/secondImageResponsive.sv
 
 export default function SecondSection({
 
-    preTitle ,
-    blueText ,
-    titleText,
-    paragraph,
-    sectionImg,
-    responsiveImage 
+preTitle ,
+blueText ,
+titleText,
+paragraph,
+sectionImg,
+responsiveImage 
 }) {
-    return (
-        <div className='  sm:pl-0 text-white flex flex-col  max-[1200px] self-start w-full mt-24 '>
-            <div className='flex justify-center items-end '>
-                <div className='w-1/2'>
-                    <div className='LatoLight'>
-                        {preTitle}
-                    </div>
-                    <div className='Oxanium text-3xl sm:text-5xl md:text-6xl lg:text-7xl mt-10'>
-                        <span className='text-custom-blue mr-3'>
-                            {blueText}
-                        </span>
-                        {titleText}
-                    </div>
-                    <div className='Oxanium text-lg sm:text-xl mt-10 font-thin'>
-                        {paragraph}
-                    </div>
+return (
+    <div className='text-white md:flex flex-col mt-16 md:mt-24 w-full'>
+        <div className='container'>
+        <div className='md:flex justify-center items-end '>
+            <div className='md:w-1/2'>
+                <div className='LatoLight'>
+                    {preTitle}
                 </div>
-                <div className=" w-[35%]  xl:w-1/2 flex justify-end items-start mb-20 ">
-                    <button2 className="relative text-black opacity-80  p-3 Oxanium bg-black hover:text-white border border-transparent group">
-                        View All
-                    </button2>
-                </div>
+                <h2 className='break-words Oxanium text-4xl  xl:text-7xl mt-10'>
+                {blueText ? (
+                    <span className='text-custom-blue mr-3'>
+                        {blueText}
+                    </span>
+                ) : null}
+                    {titleText}
+                </h2>
+                <p className='Oxanium text-lg sm:text-xl mt-10 font-thin'>
+                    {paragraph}
+                </p>
             </div>
-        {sectionImg && responsiveImage  && 
-        
-            <>
-            <div className='hidden md:flex justify-center items-center self-center w-full lg:w-3/4 mt-5'>
-                <Image src={sectionImg} layout='responsive' />
+            <div className="px-3 px-md-0 md:w-[35%]  xl:w-1/2 md:flex justify-end items-start mt-8 mt-md-0">
+            <button2  className="view_all relative text-black opacity-80 Oxanium bg-black hover:text-white border border-transparent group">
+                 View All
+            </button2>
             </div>
-            <div className='flex md:hidden justify-center items-center self-center  mt-5'>
-                <Image src={responsiveImage} />
-            </div>
-            </>
-            }
-
         </div>
-    )
+        </div>
+
+    {sectionImg && responsiveImage  && 
+    
+        <>
+        <div className='hidden md:flex justify-center items-center self-center w-full lg:w-3/4'>
+            <Image src={sectionImg} layout='responsive' />
+        </div>
+        <div className='flex md:hidden justify-center items-center self-center  mt-5'>
+            <Image src={responsiveImage} />
+        </div>
+        </>
+        }
+
+    </div>
+)
 }

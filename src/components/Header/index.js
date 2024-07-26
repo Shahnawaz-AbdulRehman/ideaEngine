@@ -17,11 +17,12 @@ export default function Header() {
 
 
       <header className='header w-full  md:mt-2 sm:mt-2 engine-header mb-16 '>
+        <div className='container'>
         <div className='flex justify-between items-center'>
-          <div className='logo md:w-40 lg:w-auto pl-3'>
+          <div className='logo md:w-40 lg:w-auto'>
             <Image src={logo} />
           </div>
-          <div className='headerDefault headerMenu py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
+          <div className='headerDefault headerMenu py-3 lg:py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
             <ul className='flex text-white xl:gap-12 md:gap-3 lg:gap-6 gap-4'>
               <li><a href="#" className='menu-links uppercase'>White-paper</a></li>
               <li><a href="#" className='menu-links uppercase'>VISUAL NOVEL</a></li>
@@ -30,7 +31,7 @@ export default function Header() {
           </div>
           {headerOpen &&
           
-          <div className='headerResponsive headerMenu py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
+          <div className='headerResponsive headerMenu py-2 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
             <ul className='flex text-white xl:gap-12 md:gap-3 lg:gap-6 gap-4'>
               <li><a href="#" className='menu-links uppercase'>White-paper</a></li>
               <li><a href="#" className='menu-links uppercase'>VISUAL NOVEL</a></li>
@@ -39,9 +40,9 @@ export default function Header() {
           </div>
           }
           <div className='headerbtn-box flex items-center lg:gap-3 md:gap-1'>
-            <div className='left-line h-7 w-2 bg-black'></div>
-            <div className='header-btn py-2 lg:px-4 md:px-2 text-white'><button><a href="#" className=''>Connect Wallet</a></button></div>
-            <div className='right-line h-7 w-2'></div>
+            <div className='left-line h-4 w-0.5 bg-black'></div>
+            <div className='header-btn py-1 px-3 lg:px-4 md:px-2 text-white Oxanium '><a href="#" className=''>Connect Wallet</a></div>
+            <div className='right-line h-4 w-0.5'></div>
             <div className='profile-img hidden sm:block pr-2'>
               <Image src={profile} />
             </div>
@@ -55,6 +56,8 @@ export default function Header() {
             </label>
           </div>
         </div>
+        </div>
+
       </header>
 
 
