@@ -88,6 +88,7 @@ button.relative {
 @media(max-width:640px) {
   button.relative{
     width: 6rem;
+    height: 2rem;
   }
 }
 
