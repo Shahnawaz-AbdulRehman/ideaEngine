@@ -282,7 +282,9 @@ button3:hover::after {
   transition: right 0.3s;
 }
 
-
+.app-store {
+  max-width: 110px;
+}
 button3:hover::before,
 button3:hover::after {
   background-color: #AD1AAF; /* Color on hover */

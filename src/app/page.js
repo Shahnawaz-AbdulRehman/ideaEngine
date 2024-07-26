@@ -54,8 +54,8 @@ export default function Home() {
             Revolutionizing AI and social interactions. Users can engage in peer-to-peer zero knowledge exchanges, ensuring complete privacy and security during data transactions. Users will be rewarded for taking notes, interacting with artificial intelligence and communicating with other users.
             </p>
             <div className="flex mt-10 gap-4 justify-center">
-              <Image src={playStore} className="object-contain" />
-              <Image src={appleBtn} />
+              <Image src={playStore} className="object-contain app-store" />
+              <Image src={appleBtn} className="object-contain app-store" />
             </div>
           </div>
           <gradientcontainer className="relative z-2 w-full">
