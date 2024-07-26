@@ -82,7 +82,7 @@ export default function Home() {
           <gradientcontainer className="relative z-2">
           <div className="container">
 
-            <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-4 my-10 items-center justify-center">
+            <div className="px-4 md:px-0 grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 my-10 items-center justify-center">
 
               <Card img={nft1} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
               <Card img={nft5} hearts={"7"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
