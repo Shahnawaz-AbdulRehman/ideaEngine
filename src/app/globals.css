@@ -1,7 +1,19 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+main {
+  max-width: 100%;
+  overflow-y: hidden;
+}
+.container {
+  margin: 0 auto;
+}
+.view_all {
+  padding: 10px 30px !important;
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -89,6 +101,10 @@ button.relative {
   button.relative{
     width: 6rem;
     height: 2rem;
+  }
+  .container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
 
@@ -272,3 +288,34 @@ button3:hover::after {
   background: radial-gradient(circle at bottom left, #3b82f6, transparent);
 }
 
+
+.hero_button {
+  height: 2.5rem !important;
+  width: 8rem !important;
+}
+@media(min-width:992px){
+  .view_all {
+    padding: 7px 40px !important;
+  }
+}
+@media(min-width:1025px){
+  .hero_button {
+    height: 3rem !important;
+    width: 10rem !important;
+
+  }
+  
+}
+@media(min-width:1700px) {
+  .container {
+    max-width: 1620px;
+  }
+  .hero_button {
+    height: 4rem !important;
+    width: 12rem !important;
+  }
+  .hero_title {
+    font-size: 64px !important;
+    line-height: 5rem !important;
+}
+}

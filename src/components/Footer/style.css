@@ -65,9 +65,7 @@ box-shadow: 0px 8.184px 15.345px 0px #003861;
 .footer-copty-text p{
     color: #000618;
 }
-.footer-copty-text p{
-    font-size: 10px;
-}
+
 @media(max-width:1600px){
     .footer-content{
         max-width: 60%;

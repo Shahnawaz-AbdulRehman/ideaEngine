@@ -27,7 +27,7 @@ export default function Home() {
     <>
       <div className="flex self-center items-center justify-center bg-black overflow-x-hidden w-full">
 
-        <main className="maxWidth flex relative z-0 min-h-screen flex-col items-center justify-between px-0  md:px-24 md:pt-0 bg-black max-[1200px] ">
+        <main className="flex relative z-0 min-h-screen flex-col items-center justify-between  bg-black">
 
           <Header />
           <FirstSection />
@@ -56,21 +56,20 @@ export default function Home() {
               sectionImg={thirdImage}
               responsiveImage={thirdImageResponsive}
             />
-
-            {/* <Image src={gradient} className="absolute top-10 left-[-55%] z-[-1] opacity-70" /> */}
-            {/* <Image src={gradient} className="absolute top-60 right-[-55%] z-[-1] opacity-70" /> */}
           </gradientcontainer>
+          <div className="container">
+            <div className="gradient-text-container inter">
+              <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10">Swift Blockchain Revolution</h1>
+            </div>
+            <div className="mx-auto text-white inter mt-10 inter xl:text-xl  md:w-[55%] text-center">
+              Ready to energize your life and turn it into earnings? With Move to Earn, your steps hold real value. Simply walk, run, or exercise to earn. Each step matters.
+            </div>
+            <div className="flex mt-10 gap-4 justify-center">
+              <Image src={playStore} className="object-contain" />
+              <Image src={appleBtn} />
+            </div>
+          </div>
 
-          <div className="gradient-text-container inter">
-            <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10">Swift Blockchain Revolution</h1>
-          </div>
-          <div className="text-white inter mt-10 inter xl:text-xl  md:w-[55%] text-center">
-            Ready to energize your life and turn it into earnings? With Move to Earn, your steps hold real value. Simply walk, run, or exercise to earn. Each step matters.
-          </div>
-          <div className="sm:w-auto w-[300px]  flex mt-10 gap-4">
-            <Image src={playStore} />
-            <Image src={appleBtn} />
-          </div>
 
 
           <SecondSection
@@ -80,17 +79,17 @@ export default function Home() {
             paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
           />
           <gradientcontainer className="relative z-2">
+          <div className="container">
 
-            <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-4 my-10 items-center justify-center ms-10">
-
+            <div className=" grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-4 my-10 items-center justify-center">
 
               <Card img={nft1} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
               <Card img={nft5} hearts={"7"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
               <Card img={nft3} hearts={"8"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
               <Card img={nft4} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
+</div>
+              
             </div>
-
-            {/* <Image src={gradient} className="absolute top-0 left-[-55%] z-[-1] opacity-70" /> */}
 
           </gradientcontainer>
 
@@ -116,18 +115,15 @@ export default function Home() {
 
 
 
-          <div className="text-white text-5xl mb-5 Oxanium mt-10">
+          <h4 className="text-white text-3xl md:text-4xl mb-5 Oxanium mt-10 font-bold">
             Join Whitelist
-          </div>
+          </h4>
           <div>
-            <div className="flex p-1 pl-3 rounded-[15px] border text-white border-[#5991ff] ">
+            <div className="md:min-w-96 justify-between flex p-1 pl-7 rounded-[7px] border text-white border-[#5991ff] ">
               <input className="p-3  bg-opacity-0 reset-input "
                 type="email"
                 id="email"
                 name="email"
-                // value={email}
-                // onChange={handleChange}
-                // required
                 placeholder="Enter your email"
               />
               <div className="w-12 ml-10 cursor-pointer">
@@ -135,9 +131,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-
-
           <Footer />
         </main>
       </div>

@@ -12,7 +12,7 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
         borderRadius: "0 20px 0 20px"
     }
     return (
-        <div className='text-white w-[90%] bg-white bg-opacity-15 p-2 rounded-xl self-center'>
+        <div className='text-white bg-white bg-opacity-15 p-2 rounded-xl self-center'>
 
             <div className='relative'>
                 <Image src={img} />
@@ -60,7 +60,7 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
 
             <div className=" flex justify-center items-center mt-10 mb-3 ">
                 <button3 className="relative w-[80%] text-center  opacity-80 cursor-pointer  p-3 Oxanium  hover:text-white border border-[#AD1AAF] group">
-                    View All
+                    Buy Now
                 </button3>
             </div>
 
