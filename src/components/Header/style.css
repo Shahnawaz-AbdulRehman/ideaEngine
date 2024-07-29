@@ -135,7 +135,10 @@
         max-width: 150px;
         
     }
-
+    footer {
+        border-top: 1px solid #00C3FD;
+        padding-top: 40px;
+    }
     .follow-us {
         font-size: 12px;
     }

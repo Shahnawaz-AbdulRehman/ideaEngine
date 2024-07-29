@@ -11,7 +11,7 @@ export default function Footer() {
       <div className='footer-top-line w-full'>
         {/* <Image className='w-full' src={footerline} /> */}
       </div>
-      <div className='pb-8 lg:pb-12 xl:pt-20 xl:pb-16 xl:px-16 footer-content grid text-center xl:flex items-center lg:justify-around  flex-col gap-4 sm:gap-6 lg:gap-6 xl:gap-8 md:flex-row'>
+      <div className='pb-8 lg:pb-12 xl:pt-20 xl:pb-16 xl:px-16 footer-content grid text-center xl:flex items-center lg:justify-around  flex-col gap-8 sm:gap-6 lg:gap-6 xl:gap-8 md:flex-row'>
         <div>
           <ul className='flex justify-center footer-list gap-6 xl:gap-12 md:gap-4 lg:gap-6'>
             <li><a href="#" className='xs uppercase footer-gray-text'>White-paper</a></li>

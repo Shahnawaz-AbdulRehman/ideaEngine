@@ -340,11 +340,7 @@ footer {
   .view_all {
     padding: 7px 40px !important;
   }
-  footer {
-    border-top: 1px solid #00C3FD;
-    padding-top: 40px;
-    border-radius: 50px;
-}
+
   .right-line, .left-line, .header-btn {
     font-size: 12px !important;
   }
