@@ -121,8 +121,8 @@ export default function Home() {
             Join Whitelist
           </h4>
           <div>
-            <div className="md:min-w-96 justify-between flex p-1 pl-7 rounded-[7px] border text-white border-[#5991ff] ">
-              <input className="p-3  bg-opacity-0 reset-input "
+            <div className=" md:min-w-96 justify-between flex p-1 pl-7 rounded-[7px] border text-white border-[#5991ff] ">
+              <input className="p-3 w-[170px] sm:w-auto  bg-opacity-0 reset-input "
                 type="email"
                 id="email"
                 name="email"
