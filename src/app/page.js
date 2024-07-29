@@ -10,7 +10,7 @@ import appleBtn from "../../public/assets/AppStore.png";
 import playStore from "../../public/assets/PlayStore.png";
 import fourthImage from "../../public/assets/fourthImg.png";
 import fourthImageResponsive from "../../public/assets/pieChart.png";
-import fifthImage from "../../public/assets/fifthImg.png";
+import fifthImage from "../../public/assets/lastImg.png";
 import fifthImageResponsive from "../../public/assets/lastImgResponsive.png";
 import subscribe from "../../public/assets/subscribe.png";
 import Footer from "@/components/Footer";

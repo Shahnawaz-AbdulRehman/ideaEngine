@@ -46,7 +46,7 @@ export default function SecondSection({
             {sectionImg && responsiveImage &&
 
                 <>
-                    <div className='hidden md:flex justify-center items-center self-center w-full lg:w-3/4'>
+                    <div className='hidden md:flex justify-center items-center self-center w-full lg:w-3/4 container'>
                         <Image src={sectionImg} layout='responsive' />
                     </div>
                     <div className='flex md:hidden justify-center items-center self-center  mt-5'>
