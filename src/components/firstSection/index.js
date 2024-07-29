@@ -6,7 +6,7 @@ import firstSectionImg from '../../../public/assets/firstSection.png';
 import Button from '../Button';
 import { Player } from '@lottiefiles/react-lottie-player';
 import animationData from '../../lotties/man';
-import lottieBg from '../../../public/assets/lottie-bg.png'
+import lottieBg from '../../../public/assets/lottie-bg.webp'
 export default function FirstSection() {
   return (
     <div className='container'>
