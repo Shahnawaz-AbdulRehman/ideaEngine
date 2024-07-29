@@ -11,8 +11,6 @@ main {
 }
 .container {
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;;
 }
 .view_all {
   padding: 10px 30px !important;
@@ -332,7 +330,7 @@ div#lottie {
     padding: 7px 40px !important;
   }
   .right-line, .left-line, .header-btn {
-    font-size: 18px !important;
+    font-size: 12px !important;
   }
   .container {
     padding-left: 30px;
@@ -347,10 +345,16 @@ div#lottie {
   }
   
 }
+@media(min-width:1366px) {
+  .right-line, .left-line, .header-btn {
+    font-size: 18px !important;
+  }
+}
 @media(min-width:1700px) {
   .container {
     max-width: 1620px;
   }
+
   .hero_button {
     height: 4rem !important;
     width: 12rem !important;

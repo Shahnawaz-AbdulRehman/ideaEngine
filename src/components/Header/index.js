@@ -22,7 +22,7 @@ export default function Header() {
           <div className='logo  sm:w-40 lg:w-auto'>
             <Image src={logo} />
           </div>
-          <div className='headerDefault headerMenu py-3 lg:py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
+          <div className='headerDefault headerMenu py-2 xl:py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
             <ul className='flex text-white xl:gap-12 md:gap-3 lg:gap-6 gap-4'>
               <li><a href="#" className='menu-links uppercase'>White-paper</a></li>
               <li><a href="#" className='menu-links uppercase'>VISUAL NOVEL</a></li>
@@ -41,7 +41,7 @@ export default function Header() {
           }
           <div className='headerbtn-box flex items-center lg:gap-3 md:gap-1'>
             <div className='left-line h-4 w-0.5 bg-black'></div>
-            <div className='header-btn py-1 px-3 md:py-3 lg:px-4 md:px-2 text-white Oxanium '><a href="#" className=''>Connect Wallet</a></div>
+            <div className='header-btn py-1.5 lg:py-2 px-3 xl:py-3.5 lg:px-4 md:px-2 text-white Oxanium '><a href="#" className='font-bold'>Connect Wallet</a></div>
             <div className='right-line h-4 w-0.5'></div>
             <div className='profile-img hidden sm:block pr-2'>
               <Image src={profile} />
