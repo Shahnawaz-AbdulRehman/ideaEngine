@@ -328,18 +328,23 @@ div#lottie {
     padding-left: 20px;
     padding-right: 20px;
   }
-  footer {
-    background-image: url(/_next/static/media/footer-top-line.1cbd8452.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
+footer {
+  background-image: url(/_next/static/media/footer-top-line.1cbd8452.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 }
 @media(min-width:992px){
   .view_all {
     padding: 7px 40px !important;
   }
+  footer {
+    border-top: 1px solid #00C3FD;
+    padding-top: 40px;
+    border-radius: 50px;
+}
   .right-line, .left-line, .header-btn {
     font-size: 12px !important;
   }
