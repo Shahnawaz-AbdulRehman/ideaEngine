@@ -29,7 +29,7 @@ export default function FirstSection() {
             autoplay
             loop
             src={animationData}
-            style={{ height: '400px', width: '400px' }}
+            style={{ height: '400px', width: '400px',opacity: "75%" }}
           />
         </div>
       </div>

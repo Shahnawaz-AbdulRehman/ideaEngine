@@ -19,7 +19,7 @@ export default function Header() {
       <header className='header w-full  md:mt-2 sm:mt-2 engine-header mb-16 '>
         <div className='container'>
         <div className='flex justify-between items-center'>
-          <div className='logo md:w-40 lg:w-auto'>
+          <div className='logo  sm:w-40 lg:w-auto'>
             <Image src={logo} />
           </div>
           <div className='headerDefault headerMenu py-3 lg:py-5 xl:px-16 xl:px-16 md:px-6 sm:px-3'>
@@ -51,7 +51,7 @@ export default function Header() {
               <div className='menu-icon pr-3' onClick={()=>{
                 setHeaderOpen(!headerOpen)
               }}>
-                <Image src={menuicon} />
+                <Image src={menuicon} />  
               </div>
             </label>
           </div>

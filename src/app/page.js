@@ -4,14 +4,14 @@ import SecondSection from "@/components/SecondSection";
 import Image from "next/image";
 import secondImage from "../../public/assets/test.webp";
 import secondImageResponsive from "../../public/assets/secondImageResponsive.webp"
-import thirdImage from "../../public/assets/thirdImage.webp";
+import thirdImage from "../../public/assets/questNft.svg";
 import thirdImageResponsive from "../../public/assets/thirdImageResponsive.svg";
 import appleBtn from "../../public/assets/AppStore.png";
 import playStore from "../../public/assets/PlayStore.png";
 import fourthImage from "../../public/assets/fourthImg.png";
-import fourthImageResponsive from "../../public/assets/fourthImgResponsive.png";
+import fourthImageResponsive from "../../public/assets/pieChart.png";
 import fifthImage from "../../public/assets/fifthImg.png";
-import fifthImageResponsive from "../../public/assets/fifthImgResponsive.png";
+import fifthImageResponsive from "../../public/assets/lastImgResponsive.png";
 import subscribe from "../../public/assets/subscribe.png";
 import Footer from "@/components/Footer";
 import Card from "@/components/Card";
@@ -45,6 +45,7 @@ export default function Home() {
             paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
             sectionImg={secondImage}
             responsiveImage={secondImageResponsive}
+            
           />
           <div className="container">
             <div className="gradient-text-container inter">
