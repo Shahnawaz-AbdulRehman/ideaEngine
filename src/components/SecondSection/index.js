@@ -29,12 +29,12 @@ export default function SecondSection({
                             ) : null}
                             {titleText}
                         </h2>
-                        <p className='Oxanium text-lg sm:text-xl mt-10 font-thin md:w-1/3'>
+                        <p className='Oxanium text-lg sm:text-xl mt-5 lg:mt-10 font-thin mb-5 lg:mb-0 lg:w-1/3'>
                             {paragraph}
                         </p>
                     </div>
                     {viewAllBtn &&
-                        <div className="px-3 px-md-0 md:w-[35%]  xl:w-1/2 md:flex justify-end items-start mt-8 mt-md-0">
+                        <div className="px-3 px-md-0 lg:w-[35%]  xl:w-1/2 md:flex justify-end items-start mt-8 mt-md-0">
                             <button2 className="view_all relative text-black opacity-80 Oxanium bg-black hover:text-white border border-transparent group">
                                 View All
                             </button2>
