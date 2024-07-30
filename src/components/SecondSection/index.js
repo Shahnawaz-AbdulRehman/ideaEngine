@@ -21,7 +21,7 @@ export default function SecondSection({
                         <div className='LatoLight'>
                             {preTitle}
                         </div>
-                        <h2 className='break-words Oxanium text-4xl  xl:text-7xl mt-10'>
+                        <h2 className='break-words Oxanium text-4xl  xl:text-7xl mt-5 md:mt-10'>
                             {blueText ? (
                                 <span className='text-custom-blue mr-3'>
                                     {blueText}
@@ -49,7 +49,7 @@ export default function SecondSection({
                     <div className='hidden md:flex justify-center items-center self-center w-full lg:w-3/4 container'>
                         <Image src={sectionImg} layout='responsive' />
                     </div>
-                    <div className='flex md:hidden justify-center items-center self-center  mt-5'>
+                    <div className='flex md:hidden justify-center items-center self-center'>
                         <Image src={responsiveImage} />
                     </div>
                 </>

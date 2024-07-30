@@ -60,7 +60,7 @@ export default function Card({img,hearts,cryptoName,userName,ethAmount}) {
 
             <div className=" flex justify-center items-center mt-10 mb-3 ">
                 <button3 className="relative w-[80%] text-center  opacity-80 cursor-pointer  p-3 Oxanium  hover:text-white border border-[#AD1AAF] group">
-                    Buy Now
+                    Coming Soon
                 </button3>
             </div>
 

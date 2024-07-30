@@ -31,8 +31,7 @@ export default function Footer() {
         </div>
         </div>
 
-        <div><div className='footer-btn py-2 px-5 text-white'><button className='flex'><a href="#" className='footer-btn-text'>Connect Wallet</a></button></div>
-        </div>
+        <div></div>
       </div>
       <div className='footer-copty-text py-1'>
         <p className='m-0'>© Copyright © 2024 Incentives  Incentives - AI Automations and blockchain sales@idea-engine.ai</p>

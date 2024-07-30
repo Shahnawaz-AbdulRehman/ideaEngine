@@ -39,7 +39,7 @@ export default function Home() {
 
           <SecondSection
 
-            preTitle={"Most loved NFTs of the time"}
+            preTitle={"Wearable Threads On Chain + AI "}
             blueText={"Gamified"}
             titleText={"DePin + SocialFI for AI "}
             paragraph={"Mini-games to level up your desired Identity on Smartwatch"}
@@ -63,7 +63,7 @@ export default function Home() {
 
             <SecondSection
 
-              preTitle={"Incentivized but not play to earn model"}
+              preTitle={"Incentivized But Not Play To Earn Model"}
               blueText={"ZK NFT Quests/"}
               titleText={"Games"}
               paragraph={"Gamified Threads with custom data variables"}
@@ -76,7 +76,7 @@ export default function Home() {
 
 
           <SecondSection
-            preTitle={"Most loved NFTs of the time"}
+            preTitle={"Earn desired cryptocurrency by creating  AI + DAO pools on the smartwatch"}
             blueText={"Pair your any token"}
             titleText={"with AI"}
             paragraph={"Your token will be able Tell Jokes, Provide Advice, Offer Tips and much more."}
@@ -84,7 +84,7 @@ export default function Home() {
           <gradientcontainer className="relative z-2">
           <div className="container">
 
-            <div className="px-4 md:px-0 grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 my-10 items-center justify-center">
+            <div className="px-2 sm:px-4 md:px-0 grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 my-10 items-center justify-center">
 
               <Card img={nft1} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
               <Card img={nft5} hearts={"7"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
@@ -98,7 +98,7 @@ export default function Home() {
 
             <SecondSection
 
-              preTitle={"Most Appreciated NFTs On Sale For the day"}
+              preTitle={"IDEA Engine: AI Wearable Crypto Collectibles Ecosystem"}
               titleText={"TokenoMics And Utility"}
               sectionImg={fourthImage}
               responsiveImage={fourthImageResponsive}
@@ -106,7 +106,7 @@ export default function Home() {
           <gradientcontainer className="relative z-2">
           <SecondSection
 
-            preTitle={"Watch and follow celebrities to get the best collection of NFTs"}
+            preTitle={"IDEA Engine: AI wearable Crypto collectibles ecosystem"}
             titleText={"Roadmap"}
             sectionImg={fifthImage}
             responsiveImage={fifthImageResponsive}
@@ -118,18 +118,18 @@ export default function Home() {
 
 
 
-          <h4 className="text-white text-3xl md:text-4xl mb-5 Oxanium mt-10 font-bold">
+          <h4 className="text-white text-3xl md:text-4xl mb-5 Oxanium md:mt-10 font-bold">
             Join Whitelist
           </h4>
           <div className="px-2">
-            <div className="md:min-w-96 justify-between flex p-1 pl-7 rounded-[7px] border text-white border-[#5991ff] ">
+            <div className="flex-wrap md:min-w-96 justify-between flex p-1 pl-7 rounded-[7px] border text-white border-[#5991ff] ">
               <input className="p-3 w-[170px] sm:w-auto  bg-opacity-0 reset-input "
                 type="email"
                 id="email"
                 name="email"
                 placeholder="Enter your email"
               />
-              <div className="w-12 ml-10 cursor-pointer">
+              <div className="w-12 md:ml-10 cursor-pointer">
                 <Image src={subscribe} />
               </div>
             </div>
