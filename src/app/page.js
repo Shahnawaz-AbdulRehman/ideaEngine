@@ -10,7 +10,7 @@ import thirdImage from "../../public/assets/questNft.webp";
 import thirdImageResponsive from "../../public/assets/thirdImageResponsive.svg";
 import appleBtn from "../../public/assets/AppStore.png";
 import playStore from "../../public/assets/PlayStore.png";
-import fourthImage from "../../public/assets/fourthImg.png";
+import fourthImage from "../../public/assets/fourthImage.webp";
 import fourthImageResponsive from "../../public/assets/fourthImageResponsive.webp";
 import fifthImage from "../../public/assets/lastImg.webp";
 import fifthImageResponsive from "../../public/assets/lastImgResponsive.webp";

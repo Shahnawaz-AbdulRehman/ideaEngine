@@ -370,6 +370,10 @@ div#lottie {
   .app-store {
     max-width: 200px;
   }
+  footer svg {
+    position: relative;
+    top: 30px;
+}
 }
 @media(min-width:1700px) {
   .container {
