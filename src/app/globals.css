@@ -99,7 +99,9 @@ button.relative {
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
 }
-
+.toggleUp {
+  max-width: 140px;
+}
 @media(max-width:640px) {
   button.relative{
     width: 6rem;
