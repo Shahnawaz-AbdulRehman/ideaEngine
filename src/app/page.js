@@ -4,7 +4,7 @@ import SecondSection from "@/components/SecondSection";
 import Image from "next/image";
 import secondImage from "../../public/assets/test.webp";
 import secondImageResponsive from "../../public/assets/secondImageResponsive.webp"
-import thirdImage from "../../public/assets/questNft.svg";
+import thirdImage from "../../public/assets/questNft.webp";
 import thirdImageResponsive from "../../public/assets/thirdImageResponsive.svg";
 import appleBtn from "../../public/assets/AppStore.png";
 import playStore from "../../public/assets/PlayStore.png";
@@ -21,7 +21,7 @@ import nft3 from "../../public/assets/nft3.png";
 import nft4 from "../../public/assets/nft4.png";
 import lineThing1 from "../../public/assets/lineThing3.svg";
 import gradient from "../../public/assets/gradientBlue.svg";
-
+import cardGradient from '../../public/assets/card-gradient.png'
 
 export default function Home() {
   return (
@@ -68,7 +68,7 @@ export default function Home() {
               titleText={"Games"}
               paragraph={"Gamified Threads with custom data variables"}
               sectionImg={thirdImage}
-              responsiveImage={thirdImageResponsive}
+              responsiveImage={thirdImage}
             />
           </gradientcontainer>
 
@@ -81,23 +81,25 @@ export default function Home() {
             titleText={"with AI"}
             paragraph={"Your token will be able Tell Jokes, Provide Advice, Offer Tips and much more."}
           />
-          <gradientcontainer className="relative z-2">
-          <div className="container">
+            <div className="cards w-full relative lg:mb-24">
+              <Image style={{'top':'--30%'}} className="absolute left-0" src={cardGradient}/>
+              <div className="container">
 
-            <div className="px-2 sm:px-4 md:px-0 grid sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 my-10 items-center justify-center">
+                <div className="px-2 sm:px-4 md:px-0 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 my-10 items-center justify-center">
 
-              <Card img={nft1} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
-              <Card img={nft5} hearts={"7"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
-              <Card img={nft3} hearts={"8"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
-              <Card img={nft4} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
-</div>
-              
+                  <Card img={nft1} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
+                  <Card img={nft5} hearts={"7"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
+                  <Card img={nft3} hearts={"8"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
+                  <Card img={nft4} hearts={"6"} cryptoName={"Floki Monster"} userName={"User"} ethAmount={"4.89"}/>
+                </div>
+
+              </div>
             </div>
 
-          </gradientcontainer>
+
 
             <SecondSection
-
+            className="mt-24"
               preTitle={"IDEA Engine: AI Wearable Crypto Collectibles Ecosystem"}
               titleText={"TokenoMics And Utility"}
               sectionImg={fourthImage}

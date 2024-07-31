@@ -14,7 +14,7 @@ export default function SecondSection({
     viewAllBtn
 }) {
     return (
-        <div className='text-white md:flex flex-col mt-16 md:mt-24 w-full'>
+        <div className='text-white md:flex flex-col mt-16 md:mt-24 lg:mt-32 w-full'>
             <div className='container'>
                 <div className='md:flex justify-between items-end '>
                     <div className='w-full'>
@@ -46,7 +46,7 @@ export default function SecondSection({
             {sectionImg && responsiveImage &&
 
                 <>
-                    <div className='hidden md:flex justify-center items-center self-center w-full lg:w-3/4 container'>
+                    <div className='hidden md:flex justify-center items-center self-center w-full container'>
                         <Image src={sectionImg} layout='responsive' />
                     </div>
                     <div className='flex md:hidden justify-center items-center self-center'>

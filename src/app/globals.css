@@ -162,22 +162,6 @@ button.relative:hover::before,
 button.relative:hover::after {
   background-color: white; /* Color on hover */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 button2.relative {
   position: relative;
   padding: 0.5rem 1rem;
@@ -226,7 +210,6 @@ button2:hover::before,
 button2:hover::after {
   background-color: #AD1AAF; /* Color on hover */
 }
-
 
 
 
@@ -337,18 +320,20 @@ div#lottie {
   align-items: center;
 }
 
+
+
 @media(min-width:768px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
   }
-footer {
+/* footer {
   background-image: url(/_next/static/media/footer-top-line.1cbd8452.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-}
+} */
 }
 @media(min-width:992px){
   .view_all {
