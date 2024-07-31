@@ -82,7 +82,7 @@ export default function Home() {
             paragraph={"Your token will be able Tell Jokes, Provide Advice, Offer Tips and much more."}
           />
             <div className="cards w-full relative lg:mb-24">
-              <Image style={{'top':'--30%'}} className="absolute left-0" src={cardGradient}/>
+              <Image style={{'top':'-30%'}} className="absolute left-0" src={cardGradient}/>
               <div className="container">
 
                 <div className="px-2 sm:px-4 md:px-0 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 my-10 items-center justify-center">

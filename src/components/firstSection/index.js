@@ -9,7 +9,7 @@ import animationData from '../../lotties/man';
 import lottieBg from '../../../public/assets/lottie-bg.webp'
 export default function FirstSection() {
   return (
-    <div className='container'>
+    <div className='container xl:mb-32'>
       <div className='flex-wrap text-white flex md:row flex-col-reverse md:flex-row gap-2 md:gap-0 align-center'>
         <div className='md:w-[50%]'>
           <h2 className='hero_title Oxanium md:text-start font-bold text-3xl mt-10 md:text-3xl lg:text-4xl xl:text-5xl mb-5 xl:mb-10 md:w-[97%]'>
