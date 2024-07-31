@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import block from "../../../public/assets/userProfile.png"
 import fire from "../../../public/assets/fxemoji_fire.png";
-import eth from "../../../public/assets/eth.png";
+import eth from "../../../public/assets/eth.webp";
 // import nft1 from "../../../public/assets/nft1.png";
 import vectorTest from "../../../public/assets/vectorTest.png";
 
