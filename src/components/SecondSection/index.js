@@ -21,15 +21,15 @@ export default function SecondSection({
                         <div className='LatoLight'>
                             {preTitle}
                         </div>
-                        <h2 className='break-words Oxanium text-4xl  xl:text-7xl mt-5 md:mt-10'>
+                        <h2 className='break-words Oxanium text-3xl  xl:text-7xl mt-5 md:mt-10'>
                             {blueText ? (
-                                <span className='text-custom-blue mr-3'>
+                                <span className='block text-custom-blue mr-3'>
                                     {blueText}
                                 </span>
                             ) : null}
                             {titleText}
                         </h2>
-                        <p className='Oxanium text-lg sm:text-xl mt-5 lg:mt-10 font-thin mb-5 lg:mb-0 lg:w-1/3'>
+                        <p className='w-[80%] Oxanium text-sm sm:text-xl mt-5 lg:mt-10 font-thin lg:mb-0 lg:w-1/3'>
                             {paragraph}
                         </p>
                     </div>

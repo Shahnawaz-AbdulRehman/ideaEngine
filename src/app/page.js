@@ -1,3 +1,5 @@
+"use client";
+
 import FirstSection from "@/components/firstSection";
 import Header from "@/components/Header";
 import SecondSection from "@/components/SecondSection";
@@ -10,7 +12,7 @@ import appleBtn from "../../public/assets/AppStore.png";
 import playStore from "../../public/assets/PlayStore.png";
 import fourthImage from "../../public/assets/fourthImg.png";
 import fourthImageResponsive from "../../public/assets/fourthImageResponsive.webp";
-import fifthImage from "../../public/assets/lastImg.png";
+import fifthImage from "../../public/assets/lastImg.webp";
 import fifthImageResponsive from "../../public/assets/lastImgResponsive.webp";
 import subscribe from "../../public/assets/subscribe.png";
 import Footer from "@/components/Footer";
@@ -22,8 +24,17 @@ import nft4 from "../../public/assets/nft4.png";
 import lineThing1 from "../../public/assets/lineThing3.svg";
 import gradient from "../../public/assets/gradientBlue.svg";
 import cardGradient from '../../public/assets/card-gradient.png'
+import roadMapBg from '../../public/assets/roadmap-bg.png'
+import zfGradient from '../../public/assets/zf-gradient.webp'
+import toggleUp from '../../public/assets/toggle-up.png'
 
 export default function Home() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
   return (
     <>
       <div className="flex self-center items-center justify-center bg-black overflow-x-hidden w-full">
@@ -47,17 +58,20 @@ export default function Home() {
             responsiveImage={secondImageResponsive}
             
           />
+           <div className="relative w-full">
+           <Image style={{'top':'-22%'}} className="absolute right-0" src={zfGradient}/>
           <div className="container">
             <div className="gradient-text-container inter">
               <h1 className="gradient-text text-2xl sm:text-4xl xl:text-6xl font-bold mt-10 lg:mt-28"> Distributed Wearable Avatar Network </h1>
             </div>
-            <p className="mx-auto text-white inter mt-10 inter xl:text-xl  lg:w-[55%] md:text-center">
+            <p className="mx-auto text-white inter mt-5 md:mt-10 inter xl:text-xl  xl:w-[55%] md:text-center">
             Revolutionizing AI and social interactions. Users can engage in peer-to-peer zero knowledge exchanges, ensuring complete privacy and security during data transactions. Users will be rewarded for taking notes, interacting with artificial intelligence and communicating with other users.
             </p>
             <div className="flex mt-10 gap-4 justify-center">
               <Image src={playStore} className="object-contain app-store" />
               <Image src={appleBtn} className="object-contain app-store" />
             </div>
+          </div>
           </div>
           <gradientcontainer className="relative z-2 w-full">
 
@@ -105,6 +119,9 @@ export default function Home() {
               sectionImg={fourthImage}
               responsiveImage={fourthImageResponsive}
             />
+            <div className="relative w-full mb-10 md:mb-20">
+            <Image style={{'top':'-22%'}} className="hidden md:block absolute left-0" src={roadMapBg}/>
+
           <gradientcontainer className="relative z-2">
           <SecondSection
 
@@ -117,15 +134,16 @@ export default function Home() {
             {/* <Image src={gradient} className="absolute bottom-0 right-[-55%] z-[-1] opacity-70" /> */}
 
           </gradientcontainer>
+          </div>
 
 
 
-          <h4 className="text-white text-3xl md:text-4xl mb-5 Oxanium md:mt-10 font-bold">
+          <h4 className="text-white text-3xl md:text-4xl xl:text-6xl mb-5 lg:mb-10 Oxanium md:mt-10 font-bold">
             Join Whitelist
           </h4>
-          <div className="px-2">
-            <div className="flex-wrap md:min-w-96 justify-between flex p-1 pl-7 rounded-[7px] border text-white border-[#5991ff] ">
-              <input className="p-3 w-[170px] sm:w-auto  bg-opacity-0 reset-input "
+          <div className="px-2 w-full">
+            <div className="w-[95%] mx-auto sm:w-[400px] xl:w-[680px] lg:w-[400px] flex-wrap justify-between flex px-2 py-1 xl:py-3 md:pl-7 rounded-[7px] border text-white border-[#5991ff] ">
+              <input className="py-4 sm:w-auto  bg-opacity-0 reset-input "
                 type="email"
                 id="email"
                 name="email"
@@ -137,7 +155,11 @@ export default function Home() {
             </div>
           </div>
           <Footer />
+          <button onClick={scrollToTop} className="toggleUp hidden md:block fixed bottom-0 right-0 p-10 cursor-pointer">
+              <Image src={toggleUp}/>
+          </button>
         </main>
+
       </div>
     </>
   );

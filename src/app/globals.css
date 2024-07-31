@@ -366,7 +366,9 @@ div#lottie {
   .container {
     max-width: 1620px;
   }
-
+  footer {
+    margin-top: 18rem !important;
+  }
   .hero_button {
     height: 4rem !important;
     width: 12rem !important;

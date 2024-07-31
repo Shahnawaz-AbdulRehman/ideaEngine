@@ -112,7 +112,7 @@
 }
 @media(max-width:1280px) {
     .logo {
-        max-width: 260px;
+        max-width: 200px;
     }
 
     .footer-content {
@@ -199,7 +199,10 @@
         top: 60px;
         left: 0;
         width: 100%;
-        display: flex !important;
+        display: flex;
+        background: black !important;
+        z-index: 999;
+        text-align: center;
     }
 
     .headerMenu {
@@ -216,11 +219,11 @@
         justify-content: center;
         flex-direction: column;
         gap: 10px;
-        padding-left: 30px;
+        padding-bottom:10px;
     }
 
     .headerMenu ul li a {
-        font-size: 9.7px;
+        font-size: 10px;
     }
     .footer-copty-text p {
         font-size: 10px;
