@@ -120,7 +120,7 @@ export default function Home() {
               responsiveImage={fourthImageResponsive}
             />
             <div className="relative w-full mb-10 md:mb-20">
-            <Image style={{'top':'-22%'}} className="hidden md:block absolute left-0" src={roadMapBg}/>
+            <Image style={{'top':'-22%'}} className="w-[50%] hidden md:block absolute left-0" src={roadMapBg}/>
 
           <gradientcontainer className="relative z-2">
           <SecondSection
