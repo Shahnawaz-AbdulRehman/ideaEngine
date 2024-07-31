@@ -289,6 +289,7 @@ button3:hover::after {
 
 .app-store {
   max-width: 110px;
+  position: relative;
 }
 button3:hover::before,
 button3:hover::after {
@@ -357,11 +358,17 @@ div#lottie {
     width: 10rem !important;
 
   }
+  .app-store {
+    max-width: 150px;
+  }
   
 }
 @media(min-width:1366px) {
   .right-line, .left-line, .header-btn {
     font-size: 18px !important;
+  }
+  .app-store {
+    max-width: 200px;
   }
 }
 @media(min-width:1700px) {
