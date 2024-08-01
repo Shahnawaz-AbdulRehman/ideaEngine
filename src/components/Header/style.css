@@ -100,7 +100,9 @@
 }
 
 @media(min-width:768px) {
-  
+    .logo {
+        max-width: 130px;
+    }
 }
 
 
